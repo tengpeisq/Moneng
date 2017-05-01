@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.moral.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </FrameLayout>
+
+    <RadioGroup
+        android:background="#000"
+        android:id="@+id/rg"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:drawableTop="@drawable/selector_rg_message"
+            style="@style/MyRadioButtonStyle"
+            android:id="@+id/rb_message"
+            android:text="资讯"
+            />
+        <RadioButton
+            android:drawableTop="@drawable/selector_rg_live"
+            style="@style/MyRadioButtonStyle"
+            android:id="@+id/rb_live"
+            android:text="直播"
+            />
+        <RadioButton
+            android:drawableTop="@drawable/selector_rg_query"
+            style="@style/MyRadioButtonStyle"
+            android:id="@+id/rb_query"
+            android:text="查询"
+            />
+        <RadioButton
+            android:drawableTop="@drawable/selector_rg_me"
+            style="@style/MyRadioButtonStyle"
+            android:id="@+id/rb_me"
+            android:text="我的"
+            />
+    </RadioGroup>
+</LinearLayout>

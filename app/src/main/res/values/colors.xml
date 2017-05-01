@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="recyclerview_item_pressed_bg">#dddddd</color><!--recyclerview条目点击按压后的颜色-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorRb_Default">#fff</color>
+    <color name="colorRb_Checked">#95D60C</color>
+    <color name="white">#fff</color>
+    <color name="ripple_color">#E1E1E1</color><!--recyclerview条目点击水波纹的颜色-->
+</resources>
